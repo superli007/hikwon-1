@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent" android:layout_height="wrap_content">
+	<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+		android:layout_width="fill_parent" android:layout_height="wrap_content"
+		android:background="#FFFFFF" android:scrollbars="vertical" android:id="@+id/scrollview">
+		<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+			android:orientation="vertical" android:layout_width="fill_parent"
+			android:layout_height="wrap_content" android:id="@+id/add_to_view">
+			<!-- 包含首页产品内容 -->
+			<include layout="@layout/index_products" />
+
+		</LinearLayout>
+	</ScrollView>
+	<!-- 底部导航条 -->
+	<LinearLayout android:orientation="horizontal"
+		android:layout_width="fill_parent" android:layout_height="wrap_content"
+		android:layout_alignParentBottom="true">
+		<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+			android:orientation="vertical" android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:id="@+id/home"
+			android:background="@drawable/tab_one_normal" android:layout_weight="1">
+			<TextView android:layout_width="wrap_content"
+				android:layout_height="wrap_content" android:text="@string/index_page"
+				android:gravity="center" android:paddingTop="29px"
+				android:background="@drawable/home" />
+		</LinearLayout>
+
+		<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+			android:orientation="vertical" android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:background="@drawable/tab_one_normal"
+			android:id="@+id/publish" android:layout_weight="1">
+			<TextView android:layout_width="wrap_content"
+				android:layout_height="wrap_content" android:text="@string/sort"
+				android:gravity="center" android:paddingTop="29px"
+				android:background="@drawable/publish" />
+		</LinearLayout>
+
+		<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+			android:orientation="vertical" android:layout_width="wrap_content"
+			android:id="@+id/change" android:layout_height="wrap_content"
+			android:background="@drawable/tab_one_normal" android:layout_weight="1">
+			<TextView android:layout_width="wrap_content"
+				android:layout_height="wrap_content" android:text="@string/buy_cart"
+				android:gravity="center" android:paddingTop="29px"
+				android:background="@drawable/buy_cart" />
+		</LinearLayout>
+
+		<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+			android:orientation="vertical" android:layout_width="wrap_content"
+			android:id="@+id/more" android:layout_height="wrap_content"
+			android:background="@drawable/tab_one_normal" android:layout_weight="1">
+			<TextView android:layout_width="wrap_content"
+				android:layout_height="wrap_content" android:text="@string/mys"
+				android:gravity="center" android:paddingTop="29px"
+				android:background="@drawable/mys" />
+		</LinearLayout>
+	</LinearLayout>
+</RelativeLayout>

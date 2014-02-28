@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, MainActivity!</string>
+    <string name="app_name">hikwon</string>
+<string name="showAll">显示所有数据</string>
+<string name="productType">产品型号</string>
+<string name="overview">产品综述</string>
+<string name="param">参数</string>
+<string name="index_page">首页</string>
+<string name="sort">分类</string>
+<string name="buy_cart">购物车</string>
+<string name="mys">我的信息</string>
+<string name="jk_system">监控系统</string>
+<string name="jk_product">监控产品</string>
+<string name="jl_product">网络远程监视录像系统</string>
+
+</resources>

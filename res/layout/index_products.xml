@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent" android:layout_height="fill_parent"
+	android:orientation="vertical"
+	android:background="#ffffff"
+	android:id="@+id/index_products">
+	<!-- title -->
+	<ImageView android:id="@+id/ImageView01"
+				android:layout_width="wrap_content" android:layout_height="wrap_content" 
+				android:src="@drawable/title"/>
+				
+	<TextView android:text="@string/jk_system" android:id="@+id/jk_system"
+		android:layout_width="fill_parent" android:layout_height="wrap_content" 
+		android:paddingBottom="15dip"
+		android:textColor="#000000"
+		android:background="@drawable/bg_lan"/>
+	<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+		android:layout_width="fill_parent" android:layout_height="fill_parent"
+		android:orientation="horizontal">
+		<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+			android:layout_width="fill_parent" android:layout_height="fill_parent"
+			android:orientation="vertical"
+			android:layout_weight="1">
+			<TextView android:text="@string/jk_product" android:id="@+id/jk_product"
+				android:layout_width="wrap_content" android:layout_height="wrap_content"
+				android:textColor="#000000" />
+			<ImageView android:id="@+id/jk_image"
+				android:layout_width="wrap_content" android:layout_height="wrap_content" 
+				android:src="@drawable/p1"/>
+		</LinearLayout>
+
+		<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+			android:layout_width="fill_parent" android:layout_height="fill_parent"
+			android:orientation="vertical"
+			android:layout_weight="1">
+			<TextView android:text="@string/jl_product" android:id="@+id/jl_product"
+				android:layout_width="wrap_content" android:layout_height="wrap_content"
+				android:textColor="#000000" />
+			<ImageView android:id="@+id/ImageView01"
+				android:layout_width="wrap_content" android:layout_height="wrap_content"
+				android:src="@drawable/p2" />
+		</LinearLayout>
+	</LinearLayout>
+	
+	<TextView android:text="@string/jk_system" android:id="@+id/jk_system"
+		android:layout_width="fill_parent" android:layout_height="wrap_content" 
+		android:paddingBottom="15dip"
+		android:textColor="#000000"
+		android:background="@drawable/bg_lan"/>
+	<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+		android:layout_width="fill_parent" android:layout_height="fill_parent"
+		android:orientation="horizontal">
+		<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+			android:layout_width="fill_parent" android:layout_height="fill_parent"
+			android:orientation="vertical"
+			android:layout_weight="1">
+			<TextView android:text="@string/jk_product" android:id="@+id/jk_product"
+				android:layout_width="wrap_content" android:layout_height="wrap_content"
+				android:textColor="#000000" />
+			<ImageView android:id="@+id/ImageView01"
+				android:layout_width="wrap_content" android:layout_height="wrap_content" 
+				android:src="@drawable/p1"/>
+		</LinearLayout>
+
+		<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+			android:layout_width="fill_parent" android:layout_height="fill_parent"
+			android:orientation="vertical"
+			android:layout_weight="1">
+			<TextView android:text="@string/jl_product" android:id="@+id/jl_product"
+				android:layout_width="wrap_content" android:layout_height="wrap_content"
+				android:textColor="#000000" />
+			<ImageView android:id="@+id/ImageView01"
+				android:layout_width="wrap_content" android:layout_height="wrap_content"
+				android:src="@drawable/p2" />
+		</LinearLayout>
+	</LinearLayout>
+	
+	<TextView android:text="@string/jk_system" android:id="@+id/jk_system"
+		android:layout_width="fill_parent" android:layout_height="wrap_content" 
+		android:paddingBottom="15dip"
+		android:textColor="#000000"
+		android:background="@drawable/bg_lan"/>
+	<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+		android:layout_width="fill_parent" android:layout_height="fill_parent"
+		android:orientation="horizontal">
+		<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+			android:layout_width="fill_parent" android:layout_height="fill_parent"
+			android:orientation="vertical"
+			android:layout_weight="1">
+			<TextView android:text="@string/jk_product" android:id="@+id/jk_product"
+				android:layout_width="wrap_content" android:layout_height="wrap_content"
+				android:textColor="#000000" />
+			<ImageView android:id="@+id/ImageView01"
+				android:layout_width="wrap_content" android:layout_height="wrap_content" 
+				android:src="@drawable/p1"/>
+		</LinearLayout>
+
+		<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+			android:layout_width="fill_parent" android:layout_height="fill_parent"
+			android:orientation="vertical"
+			android:layout_weight="1">
+			<TextView android:text="@string/jl_product" android:id="@+id/jl_product"
+				android:layout_width="wrap_content" android:layout_height="wrap_content"
+				android:textColor="#000000" />
+			<ImageView android:id="@+id/ImageView01"
+				android:layout_width="wrap_content" android:layout_height="wrap_content"
+				android:src="@drawable/p2" />
+		</LinearLayout>
+	</LinearLayout>
+	
+	<TextView android:text="@string/jk_system" android:id="@+id/jk_system"
+		android:layout_width="fill_parent" android:layout_height="wrap_content" 
+		android:paddingBottom="15dip"
+		android:textColor="#000000"
+		android:background="@drawable/bg_lan"/>
+	<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+		android:layout_width="fill_parent" android:layout_height="fill_parent"
+		android:orientation="horizontal">
+		<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+			android:layout_width="fill_parent" android:layout_height="fill_parent"
+			android:orientation="vertical"
+			android:layout_weight="1">
+			<TextView android:text="@string/jk_product" android:id="@+id/jk_product"
+				android:layout_width="wrap_content" android:layout_height="wrap_content"
+				android:textColor="#000000" />
+			<ImageView android:id="@+id/ImageView01"
+				android:layout_width="wrap_content" android:layout_height="wrap_content" 
+				android:src="@drawable/p1"/>
+		</LinearLayout>
+
+		<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+			android:layout_width="fill_parent" android:layout_height="fill_parent"
+			android:orientation="vertical"
+			android:layout_weight="1">
+			<TextView android:text="@string/jl_product" android:id="@+id/jl_product"
+				android:layout_width="wrap_content" android:layout_height="wrap_content"
+				android:textColor="#000000" />
+			<ImageView android:id="@+id/ImageView01"
+				android:layout_width="wrap_content" android:layout_height="wrap_content"
+				android:src="@drawable/p2" />
+		</LinearLayout>
+	</LinearLayout>
+	
+	<TextView android:text="@string/jk_system" android:id="@+id/jk_system"
+		android:layout_width="fill_parent" android:layout_height="wrap_content" 
+		android:paddingBottom="15dip"
+		android:textColor="#000000"
+		android:background="@drawable/bg_lan"/>
+	<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+		android:layout_width="fill_parent" android:layout_height="fill_parent"
+		android:orientation="horizontal">
+		<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+			android:layout_width="fill_parent" android:layout_height="fill_parent"
+			android:orientation="vertical"
+			android:layout_weight="1">
+			<TextView android:text="@string/jk_product" android:id="@+id/jk_product"
+				android:layout_width="wrap_content" android:layout_height="wrap_content"
+				android:textColor="#000000" />
+			<ImageView android:id="@+id/ImageView01"
+				android:layout_width="wrap_content" android:layout_height="wrap_content" 
+				android:src="@drawable/p1"/>
+		</LinearLayout>
+
+		<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+			android:layout_width="fill_parent" android:layout_height="fill_parent"
+			android:orientation="vertical"
+			android:layout_weight="1">
+			<TextView android:text="@string/jl_product" android:id="@+id/jl_product"
+				android:layout_width="wrap_content" android:layout_height="wrap_content"
+				android:textColor="#000000" />
+			<ImageView android:id="@+id/ImageView01"
+				android:layout_width="wrap_content" android:layout_height="wrap_content"
+				android:src="@drawable/p2" />
+		</LinearLayout>
+	</LinearLayout>
+	
+</LinearLayout>

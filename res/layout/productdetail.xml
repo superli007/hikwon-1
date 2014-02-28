@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent"
+  android:orientation="vertical">
+  <!-- 包含置顶返回图标 -->
+  <include layout="@layout/return_title"/>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#FFFFFF"
+    android:scrollbars="none">
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent"
+  android:background="#FFFFFF"
+  android:scrollbars="vertical"
+  android:orientation="vertical">
+  
+ <!-- 产品名称 --> 
+ <TextView android:text="标题" android:id="@+id/product_name"
+	android:layout_width="wrap_content" android:layout_height="wrap_content"
+	android:layout_gravity="center_horizontal" 
+	android:textColor="#000000"/>
+
+<!-- 产品图片 -->
+<ImageView android:layout_width="fill_parent" android:layout_gravity="top"
+		android:layout_height="wrap_content" 
+		android:id="@+id/product_photo" 
+		android:src="@drawable/p1"/>
+<!-- 价格 -->
+<TextView android:text="RMB:1558" android:id="@+id/product_price"
+	android:layout_width="fill_parent" android:layout_height="wrap_content"
+	android:paddingTop="15dip"
+	android:textColor="#000000"/>
+<!-- 产品型号 -->
+<TextView android:text="@string/productType" android:id="@+id/TextView02"
+	android:layout_width="fill_parent" android:layout_height="wrap_content"
+	android:paddingTop="15dip"
+	android:textColor="#000000"/>
+<TextView android:text="SCC-B1011P/B1311P" android:id="@+id/product_type"
+	android:layout_width="fill_parent" android:layout_height="wrap_content"
+	android:textColor="#000000"/>
+<!-- 产品综述 -->
+<TextView android:text="@string/overview" android:id="@+id/product_overview"
+	android:layout_width="fill_parent" android:layout_height="wrap_content"
+	android:paddingTop="15dip"
+	android:textColor="#000000"/>
+<TextView android:text="1/3 Super HAD IT CCD,彩色	水平分辨率：540线	最低照度：0.12Lux/(F1.2,15IRE)	背光补偿	工作电压：B1011P为AC220V;	B1211P为AC24V,DC12V" android:id="@+id/TextView05"
+	android:layout_width="fill_parent" android:layout_height="wrap_content"
+	android:textColor="#000000"/>
+<!-- 具体参数 -->
+<TextView android:text="@string/param" android:id="@+id/TextView05"
+	android:layout_width="fill_parent" android:layout_height="wrap_content"
+	android:paddingTop="15dip"
+	android:textColor="#000000"/>
+<TextView android:text="1/3 Super HAD IT CCD,彩色	水平分辨率：540线	最低照度：0.12Lux/(F1.2,15IRE)	背光补偿	工作电压：B1011P为AC220V;	B1211P为AC24V,DC12V" android:id="@+id/TextView05"
+	android:layout_width="fill_parent" android:layout_height="wrap_content"
+	android:textColor="#000000"/>
+<!-- 具体参数 -->
+<TextView android:text="@string/param" android:id="@+id/TextView05"
+	android:layout_width="fill_parent" android:layout_height="wrap_content"
+	android:paddingTop="15dip"
+	android:textColor="#000000"/>
+<TextView android:text="1/3 Super HAD IT CCD,彩色	水平分辨率：540线	最低照度：0.12Lux/(F1.2,15IRE)	背光补偿	工作电压：B1011P为AC220V;	B1211P为AC24V,DC12V" android:id="@+id/TextView05"
+	android:layout_width="fill_parent" android:layout_height="wrap_content"
+	android:textColor="#000000"/>	
+</LinearLayout>
+</ScrollView>
+</LinearLayout>
